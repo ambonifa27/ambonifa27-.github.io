@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Sweet Dreams Treats</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+      body{
+        margin:0;
+        padding:0;
+        
+      }
+
+      #sdt{
+        font-family:"Quicksand", serif;
+        font-size: 50px;
+        color:#FFFFFF;
+        margin-left: 35%;
+        margin-right: 0px;
+        padding-top: 30px;
+        margin-bottom:0px;
+    
+      }
+
+      header > span{
+        font-family:'Pacifico', serif;
+        color: #bf9000;
+        font-size: 66px;
+      }
+
+      .header-container{
+        position: relative;
+        background-color: #9bbdc2;
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+      }
+      nav{
+        position:relative;
+        margin-top:0px;
+        margin-left: 40%;
+        padding:0px;
+        margin-bottom: 0px;
+        z-index: 2;
+      }
+      nav > a {
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Quicksand",  serif;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        word-spacing: 20px;
+      }
+    
+      nav > a:hover {
+        color:black;
+      }
+
+      #cookiesimg {
+        position:static;
+        height: 600px;
+        width: 600px;
+        background-image: url("cookies.png");
+        background-size: cover;
+        margin-left:50px;
+        margin-right: 0px;
+        margin-top: 40px;
+      }
+
+      #cookies{
+        font-family: 'Pacifico', serif;
+        color: #bf9000;
+        position: absolute;
+        font-size: 50px;;
+        top: 25%;
+        left: 45%;
+        margin:0px;
+      }
+
+      #equipment-info{
+        font-family:'Amatic SC', serif;
+        font-size: 50px;
+        position: absolute;
+        top: 35%;
+        left: 45%;
+        color:#7f6000;
+      }
+
+      #equipment {
+        font-family:'Lato', serif;
+        color: #7f6000;
+        font-size: 28px;
+        position: absolute;
+        left: 44%;
+        top: 46%;
+      }
+
+      .ingredients-content{
+        background-color:#9bbdc2;
+        margin: 0px;
+        position: relative;
+        top: 20px;
+      }
+
+      #ingredients-info{
+        font-family:'Amatic SC', serif;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        color:#7f6000;
+        padding-bottom: 0px;
+      }
+      
+      #ingredients {
+        font-family:'Quicksand', serif;
+        font-size: 20px;
+        color:#FFFFFF;
+        margin: 0px;
+      }
+
+      #ingredients > ul >li> a {
+        color:#7f6000;
+        text-decoration: none;
+      }
+      #ingredients > ul >li> a:hover{
+        color:black;
+      }
+
+      #mycookies{
+        position:absolute;
+        height: 500px;
+        width: 500px;
+        background-image: url("mycookies.jpg");
+        background-size: cover;
+        left:45%;
+        bottom: 150px;
+      }
+      .instructions-content{
+        background-color:#9bbdc2;
+        margin: 0px;
+        position: relative;
+      }
+      
+      #instructions-info{
+        font-family:'Amatic SC', serif;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+        color:#7f6000;
+      }
+
+      #instructions {
+        font-family:'Quicksand', serif;
+        font-size: 20px;
+        color:#FFFFFF;
+        background-color: #9bbdc2;
+      }
+
+      span{
+        color:#7f6000;
+      }
+    </style>
+  </head>
+  
+    <div class="header-container">
+      <header id="sdt">sweet dreams <span>treats</span></header>
+      <nav id="navigation">
+        <a href="#Home"> HOME </a>
+        <a href="#Recipes"> RECIPES </a>
+        <a href="#Contact"> CONTACT </a>
+      </nav>
+    </div>
+
+    <body>
+    <div class="equipment-content">
+      <div id="cookiesimg"></div>
+       <h1 id="cookies">soft-baked chocolate chip cookies</h1>
+          <p id="equipment-info"><strong>THINGS YOU NEED:</strong></p>
+          <section id="equipment">
+            <ul>
+            <li>3 medium-sized bowls</li>
+            <li>measuring cups</li>
+            <li>parchment paper or aluminum foil</li>
+            <li>cookie scoop (or hands)</li>
+            <li>a spatula or wix (anything to mix)</li>
+            <li>a small pot or pan</li>
+            <li>baking tray</li>
+          </ul>
+          </section>
+    </div>
+
+    <div class="ingredients-content">
+      <h2 id="ingredients-info"> Ingredients </h2>
+        <section id="ingredients">
+          <ul>
+          <li>1 cup of <a href="https://www.amazon.com/Kerrygold-Unsalted-Butter-All-Natural-Grass-Fed/dp/B01HXZ022A/ref=sr_1_7_us_f3_0o_wf?crid=26APN0V4YTQS5&dib=eyJ2IjoiMSJ9.tj1meOIugR_720q3WuUWb7pF58SgiKccPeztClKAk0V-pGiZYSGJN78tpnQVvm_bD-s9MMFmEcMnlQ8tvzVagOl8qfnshBeICz4rjakdaL6Dy1XKjPGGqJhSifRGY4CCNcKEgcKohTc8u1jX3xkx5i2JE9GU0Txp8tUvQpADf65nhImWJV8qxOnWXV22ENifLJYFiy4bjNxmMVIc59w0TGfgkbluiNYBuzWi_6ovv0FeVLuee2TNspbH-V0N51U6KbQtd9NtxtwNKFd75Q4GiOlWMBaRJ9zD7QQPav8o_yA.vOn-rPwDZmzwYECVEThewCrUwSRcTByknGkuC57tN30&dib_tag=se&keywords=grass+fed+butter&qid=1761709843&sprefix=grass+fed+butter%2Caps%2C115&sr=8-7">unsalted</a> or <a href="https://www.amazon.com/Kerrygold-Salted-Irish-Butter-Sticks/dp/B01HXZ021G/ref=sr_1_6_us_f3_0o_fs?crid=2LQKFN589Y7CY&dib=eyJ2IjoiMSJ9.w2Zgk9h3KJk8uLHI_cnlc2qpNC7YgGv-e2IsPknOh6kVYm3S3V_8xVwHzprQhWgGBSR7F4E_Y3q2yPOnAI1BT2JXwWelvmAY0yDw2-wZC2Nzs_LbJkq3BWwElBP4th1K3zeXVPQFW2Hi5dQn3Xlv92mN1Dc-UmFVRavAj56TjGcBnaby3xpYqEMpppXseX5pF_cjtuezqV5IqpAxs98SO7kFT0dmDiwO9jLExMRgiE5Y0BInezrYBLP3UoMDHBznCZMW7UDQHNvM_xPn9Ilq1zxH8huLYeZ2H4mdDdMuywk.PTgzgFTCxiYsuwpd-tvbd5smohfBFXP0oJNgkMbSB1w&dib_tag=se&keywords=grass+fed+butter+salted&qid=1761709961&sprefix=grass+fed+butter+salted%2Caps%2C118&sr=8-6">salted</a> grass-fed butter</li>
+          <li>1 cup of <a href="https://www.amazon.com/Domino-Sugar-Cane-32-Ounce/dp/B07FTX5JC4/ref=sr_1_5?crid=UBXE44T8K8CT&dib=eyJ2IjoiMSJ9._4i1XfOl8VDDBLFIcm1aZqUq3e6f5x_wBD-JKnI8UQdFt8oE66LAtRE209mTKUo2lmdOUUuQo2GlJVhJ646Hef6ZjjkJPWuCohAXNOfeSkCITDAcEZyXeJ770HELsCJ9vfUK1W04TRsZNjOaTmlrZtuxX26gyuwB4SDCUuHs1hOLb2s9lRq55aDFIrDNUL17yFEPTQOTaYXCH1W4Kp8ML2GcgZIc1UaulsMiuc_VbL4EcsCNR1Sr0CGDzQl1GIGiqtC1Fux2fdu7wd__tTy4rYPislJ88n_oKozEaCiY74k.7-vJl9fA55YaNtwCf63KR48e5JLe0R58hZkmXYgUANg&dib_tag=se&keywords=granulated+sugar&qid=1761710020&sprefix=granu%2Caps%2C126&sr=8-5">granulated</a> Domino sugar (or any other)</li>
+          <li>1 cup of <a href="https://www.amazon.com/Domino-Premium-Light-Brown-Sugar/dp/B01GHECG68/ref=sr_1_7_us_f3_0o_fs?crid=1LKRXCE5KQO96&dib=eyJ2IjoiMSJ9.AWuab4Dqng9m_44X85i1BDElapLWT2CNfp-diGu0lfsAp4KXLDGj5GBdY3Iz4Z1_A99rLHMZl_caP-Y9vZu9XoTydUrruX7060D5-B862xXYZv3Ee-K31zCcvk8QZmZupby8Z5GFceh4z0L137SDhqlovmJOC5_uB5pVR2-fEo6_79VjkJVFsbGKMe9KlABDkpF9LgT_ZW3Dmvm00XpuhyTEe3em3unCVcQyUb3jVqh3WVB-eV-XdykRwoo8egka8JO9Wuw4q9iDiX2-73HNZq6QGFcCwZwB61rTjWeNGYM.yWQsavAKd6k4ztFqcUwoQlgLxZFrFAufjr3mob1fK48&dib_tag=se&keywords=light%2Bbrown%2Bsugar%2Bfor%2Bbaking&qid=1761710102&sprefix=light%2Bbrownsugar%2Caps%2C94&sr=8-7&th=1">light brown</a> Domino sugar (or any other)</li>
+          <li>2 cups/ 12 oz of Ghirardelli chocolate chips (<a href="https://www.amazon.com/Ghirardelli-Semi-Sweet-Chocolate-Chips/dp/B000VK7PMK/ref=sr_1_2?crid=28EG3JKBUQF0U&dib=eyJ2IjoiMSJ9.FIBuYI7QsCBoTDyn0IbZ6IM4F6R5j7Io2PKNFlV3Z9JbR51YsVCuicTeWeVgh2ZLehRzepRH4BYFVGKuaiHzbAp8mxG628yHRNvloDoTwQxsqPvwkJJghVuv3gNYUFH4GhQ8NPTSObkCrdYSM_fvADqgA6FuNaquT6N4J3YAHZDhMv5p_woyqN41JgT9Qz-QwPhzmF20SepS6XLU5WK0WVFo7Z28lH671Sss6NNxsdsRGEqyK76_Gu-p1WPRbmzBTjjjxR5F-eHeD0hFpYpegCiDjCzjrO8wX-UHu09J_dI.bkTBP4Eh-9QF7RmOa_hkHMY-qnDmMeTpJMEsEpsIcOk&dib_tag=se&keywords=ghirardelli%2Bchocolate%2Bchip&qid=1761709485&sprefix=ghirardelli%2Bchocolate%2Bchip%2Caps%2C133&sr=8-2&th=1">semi-sweet</a> or <a href="https://www.amazon.com/GHIRARDELLI-Chocolate-Premium-Valentines-Cookies/dp/B0014E1B7C/ref=sr_1_1_us_f3_0o_fs?crid=WPDRA0LEJ3OA&dib=eyJ2IjoiMSJ9.FIBuYI7QsCBoTDyn0IbZ6IM4F6R5j7Io2PKNFlV3Z9IXdRAwxl7x9VCdwdDRnFNb2ULNTKJUa3mY8x0bCgLBaetCScBJZg08WJHxQ1ANTAadyVoUtUMl6MSBS-fJ99ak_2YIyo1y72nYjhedvHJE1gtUMzbzJehEn4wlp5oV2jtfk4syYlkZ7fOZG3aFZmgG5IRnEFt4inclYFH_6_Nt0FsHwmRcXIyTyvVDebIxSVnsJVg1ErMDgp_ooKeXSL7s61WgzxaZADF6GiXYKyj1FuNvajqbGShPCCQXu5d-rGY.2dqX2JFTECPzl8-PlU8RolQYMNJyC2MH-w2hdQ5Xwpo&dib_tag=se&keywords=ghirardelli%2Bchocolate%2Bchips&qid=1761710142&sprefix=gh%2Caps%2C138&sr=8-1&th=1">milk chocolate</a>)
+          <li>½ teaspoon baking powder</li>
+          <li>2 large eggs</li>
+          <li>3 cups all-purpose flour</li>
+          <li>2 teaspoons <a href="https://www.amazon.com/McCormick-Pure-Vanilla-Extract/dp/B000VDSTV8/ref=sr_1_10?crid=2FG3YP9EKSUL&dib=eyJ2IjoiMSJ9.wDA9UA182bNIZ6DB0Y5fLVTOxCZ2GyO6fEZHU5s6kKs_XJFk9GIrVlWMgf8zKL74T_EYHgl2dn9sD-rIVZ53yNEQiheBgimJwc7uTQs4vjuAeyaX61v-DWJIJjBtFqS7fbLBYkUuTovYBoreXFglhkw9Vj_RedTuMa-e4ObCCfQH1aeXtq2NZhcsYaRrUEHtLnpRBItIKkCBASYyDJRNbzQ1h9qlS6lwOMyZZ261jEu6FfQxOw5I0_8wqdBSetVoAxc24Mg65IQBohSJ4rGcFd5Bjp3RPFLmUIQnmJy2Fqc.4azh73QgU-HjBX3OSTNM8YR6UoCId4d2VaYgGpTXyX0&dib_tag=se&keywords=vanilla%2Bextract&qid=1761710183&sprefix=vani%2Caps%2C118&sr=8-10&th=1">vanilla extract</a> or imitation vanilla extract</li>
+        </ul>
+        </section>
+    </div>
+
+    <div class="instructions-content">
+      <h2 id="instructions-info">Instructions</h2>
+      <div id="mycookies"></div>
+        <section id="instructions">
+          <ul>
+          <li>Preheat oven to 375 degrees Fahrenheit (190 degrees Celsius).</li>
+          <li>In a medium-sized bowl, mix baking powder, baking soda, and flour.</li>
+          <li>In a pot or pan, heat the butter until it is fully melted.</li>
+          <li>Put melted butter in a separate bowl, and combine the sugars.</li>
+          <li>In a separate bowl, beat the eggs and vanilla extract until well combined.</li>
+          <li>Mix the wet ingredients, then combine with the dry ingredients.</li>
+          <li>Add your chocolate chips and then combine.</li>
+          <li>Place your parchment paper on your baking tray.</li>
+          <li>Scope 2-3 tablespoons of the cookie dough with your cookie scoop and place them on your baking tray.</li>
+          <li>Bake your cookies in the oven for 8-10 minutes. Use a stick or fork to pierce it through to check readiness. If nothing sticks, it's ready to go!</li>
+          <li>Place on a cooling rack for about 5 minutes and reveal <span><strong>GOOEY</strong></span>-ness!</li></strong>
+        </ul>
+        </section>
+    </div>
+  </body>
+</html>
